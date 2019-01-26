@@ -323,14 +323,15 @@ main .profile{
     position: relative;
     height: 84px;
 }
-.profile-image img{
+.profile-image img {
     position: relative;
     top: -82px;
     border-radius: 50%;
     border: 3px solid white;
-    width: 134px;
+    width: 130px;
+    height: 154px;
 }
-
+/*
 .profile-image::before{
     content: '';
     position: absolute;
@@ -340,7 +341,7 @@ main .profile{
     height: 134px;
     background: linear-gradient(135deg, rgba(46, 202, 127, 0.4) 0%, rgba(46, 202, 127, 0.01) 100%);
     border-radius: 100%;
-}
+}*/
 
 .profile-name{
     font-size: 32px;
