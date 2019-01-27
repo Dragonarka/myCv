@@ -1,5 +1,4 @@
 body{
-    background: linear-gradient(to bottom right, #50a3a2 0%, #2eca7f 100%);
     padding: 0;
     margin: 0;
     border: none;
@@ -16,11 +15,9 @@ a{
     color: #171717;
 }
 
-
-
 .background.gradient {
-    background: #50a3a2;
-    background: linear-gradient(to bottom right, #50a3a2 0%, #2eca7f 100%);
+    
+    background: linear-gradient(to bottom right, #0A0A0A 0%, #0A0A0A 60%,  #ffffff 100%);
     position: fixed;
     overflow: hidden;
     top: 0;
@@ -146,7 +143,7 @@ input, textarea, button {
 
 input:focus, textarea:focus, button:focus {
     color: #171717;
-    border-bottom: 1px solid #2eca7f;
+    border-bottom: 1px solid #;
 }
 
 .title{
@@ -167,7 +164,7 @@ input:focus, textarea:focus, button:focus {
     top: 0;
     width: 30px;
     height: 30px;
-    background: linear-gradient(135deg, rgba(46, 202, 127, 0.4) 0%, rgba(46, 202, 127, 0.01) 100%);
+    background: linear-gradient(135deg, rgba(176, 24, 24, 0.4) 0%, rgba(46, 202, 127, 0.01) 100%);
     z-index: -1;
     border-radius: 30px;
 }
@@ -179,7 +176,7 @@ input:focus, textarea:focus, button:focus {
     bottom: -15px;
     width: 95%;
     height: 1px;
-    background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+    background: radial-gradient(ellipse at left, rgba(51, 46, 46, 0.7) 0%, rgba(255, 255, 255, 0) 50%);
 }
 
 .line-left{
@@ -192,7 +189,7 @@ input:focus, textarea:focus, button:focus {
     top: 0;
     width: 1px;
     height: 100%;
-    background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+    background: radial-gradient(ellipse at top, rgba(51, 46, 46, 0.7) 0%, rgba(255, 255, 255, 0) 50%);
 }
 
 .line-down{
@@ -258,7 +255,7 @@ header nav a .link{
 }
 
 header nav a:hover {
-    color: #2eca7f;
+    color: #;
 }
 
 main{
@@ -287,9 +284,9 @@ main .profile{
 }
 
 .profile-background{
-    background-image: url("./img/bg.jpg");
-    height: 300px;
-    background-size: cover;
+    background-image: url(./img/background.jpg);
+    height: 336px;
+    background-size: 435px;
     background-position: center center;
     position: relative;
     z-index: -2;
@@ -307,7 +304,7 @@ main .profile{
     z-index: -1;
 }
 
-.profile-background::before{
+.profile-background::before{    
     content: '';
     position: absolute;
     left: -12%;
@@ -353,7 +350,7 @@ main .profile{
 
 .profile-profession{
     font-size: 14px;
-    color: #2eca7f;
+    color: #;
     line-height: 14px;
     font-weight: 400;
 }
@@ -361,18 +358,18 @@ main .profile{
 .profile-social a{
     transition: all 0.3s ease 0s;
     margin: 0 6px;
-    font-size: 16px;
+    font-size: 27px;
 }
 
 .profile-social a:hover{
     text-decoration: none;
-    color: #2eca7f;
+    
 }
 
 .profile-buttons{
     position: relative;
     display: flex;
-    margin-top: 58px;
+    margin-top: 12px;
 }
 .profile-buttons::before{
     content: '';
@@ -401,7 +398,7 @@ main .profile{
 
 
 .profile-buttons a:hover{
-    color: #2eca7f;
+    color: #;
 }
 
 .profile-buttons a:first-child::before, .profile-buttons a:first-child::after{
@@ -479,9 +476,8 @@ main .profile{
     width: 60px;
     height: 60px;
     text-align: center;
-    font-size: 32px;
-    color: #2eca7f;
-    background: linear-gradient(135deg, rgba(46, 202, 127, 0.4) 0%, rgba(46, 202, 127, 0.01) 100%);
+    font-size: 32px;    
+    background: linear-gradient(135deg, rgba(176, 24, 24, 0.7) 0%, rgba(237, 241, 240, 0.01) 100%);
     border-radius: 60px;
     display: flex;
     justify-content: center;
@@ -517,7 +513,7 @@ main .profile{
     vertical-align: middle;
     font-size: 12px;
     color: #171717;
-    background: rgba(46, 202, 127, 0.4);
+    background: rgba(176, 24, 24, 0.7);
     font-weight: 300;
     border-radius: 2px;
 }
@@ -583,7 +579,7 @@ main .profile{
     height: 40px;
     text-align: center;
     font-size: 32px;
-    color: #2eca7f;
+    color: #;
 }
 
 .about-pricing a{
@@ -603,7 +599,7 @@ main .profile{
 }
 
 .about-pricing a:hover{
-    color: #2eca7f;
+    color: #;
 }
 
 .about-fun{
@@ -630,7 +626,7 @@ main .profile{
     height: 43px;
     text-align: center;
     font-size: 26px;
-    color: #2eca7f;
+    color: #;
 }
 
 .about-clients{
@@ -672,7 +668,7 @@ main .profile{
     width: 40px;
     height: 40px;
     font-size: 26px;
-    color: #2eca7f;
+    color: #;
 }
 
 .resume-line{
@@ -713,11 +709,11 @@ main .profile{
 }
 
 .resume-line .date.active{
-    color: #2eca7f;
+    color: #;
 }
 
 .resume-line .date.active::before{
-    background: #2eca7f;
+    background: #;
 }
 
 .resume-line .name{
@@ -766,7 +762,7 @@ main .profile{
 }
 
 .resume-skills > div section > div > div > div{
-    background: #2eca7f;
+    background: #B01818;
     height: 4px;
 }
 
@@ -788,7 +784,7 @@ main .profile{
     width: 40px;
     height: 40px;
     font-size: 26px;
-    color: #2eca7f;
+    color: #;
 }
 
 .works-header{
@@ -955,7 +951,7 @@ main .contact{
 }
 
 .contact-form button:hover {
-    color: #2eca7f;
+    color: #;
 }
 
 @media only screen and (min-width: 540px){
@@ -966,7 +962,7 @@ main .contact{
 
 @media only screen and (min-width: 1040px) {
     .selected{
-        color: #2eca7f;
+        color: #;
     }
     .page{
         position: absolute;
