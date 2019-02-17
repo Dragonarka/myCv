@@ -1,3 +1,4 @@
+require('./styles.scss');
 let about = document.getElementById("about");
 let getAbout = document.getElementById("getAbout");
 let resume = document.getElementById("resume");
@@ -27,7 +28,7 @@ function remove() {
 getAbout.addEventListener('click', function (e) {
     if (window.innerWidth > 1040) {
         e.preventDefault();
-        remove('about');
+        remove();
         about.classList.add('view');
         getAbout.classList.add('selected');
     }
